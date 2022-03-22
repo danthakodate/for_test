@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodejsVersion: v14.17.6
-  nodejsExecutablePath: /Users/techcreative/Documents/GitHub/for_test/github_test/Library/node/bin/node
-  npmExecutablePath: /Users/techcreative/Documents/GitHub/for_test/github_test/Library/node/bin/npm
+  nodejsExecutablePath: /Users/tallinncho/Documents/GitHub/for_test/github_test/Library/node/bin/node
+  npmExecutablePath: /Users/tallinncho/Documents/GitHub/for_test/github_test/Library/node/bin/npm
   typescriptVersion: 4.3.5
   typescriptExecutablePath: /Users/techcreative/Documents/GitHub/for_test/github_test/node_modules/typescript/lib/tsc.js
   zepetoScriptCompilerVersion: 0.1.64
