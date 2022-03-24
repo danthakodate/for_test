@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 8ee49e7ae7552410488c6752126673aa
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: ZEPETO.Character.Controller
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 1
+  overrideWrapperTypes: 1
+  wrapperTypes:
+  - ZEPETO.Character.Controller.ZepetoPlayers
+  - ZEPETO.Character.Controller.LocalPlayer
+  - ZEPETO.Character.Controller.ZepetoPlayer
+  - ZEPETO.Character.Controller.ZepetoCharacter
+  - ZEPETO.Character.Controller.ZepetoCamera
+  - ZEPETO.Character.Controller.SpawnInfo
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CharacterState, ZEPETO.Character.Controller.CharacterState>
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 

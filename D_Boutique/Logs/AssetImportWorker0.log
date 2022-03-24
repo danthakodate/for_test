@@ -1,0 +1,110 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/techcreative/Documents/GitHub/for_test/D_Boutique
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49664
+Successfully changed project path to: /Users/techcreative/Documents/GitHub/for_test/D_Boutique
+/Users/techcreative/Documents/GitHub/for_test/D_Boutique
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/techcreative/Documents/GitHub/for_test/D_Boutique/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: Intel Iris Pro OpenGL Engine
+Vendor:   Intel Inc.
+Version:  4.1 INTEL-16.5.7
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_fl
+ush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 453381120
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56739
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Trying to register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (that doesn't exist). Retrying without overrides.
+Platform support module is not available: /Applications/Unity/Hub/Editor/2020.3.9f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001599 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 61.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.340 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 54.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+SocketException: Could not resolve host 'bohanui-MacBookPro.local'
+  at System.Net.Dns.Error_11001 (System.String hostName) [0x00015] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at System.Net.Dns.GetHostByName (System.String hostName) [0x00021] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at System.Net.Dns.GetHostEntry (System.String hostNameOrAddress) [0x00052] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at ZEPETO.World.Editor.NetworkInterfaceUtils.get_PublicIPAddress () [0x00005] in <eb9f6530d4a24c568674e4b3e6d3489a>:0 
+  at ZEPETO.World.Editor.WorldNetworkInterfaceSettings.LoadNetworkInterface () [0x00017] in <eb9f6530d4a24c568674e4b3e6d3489a>:0 
+  at ZEPETO.World.Editor.WorldNetworkInterfaceSettings.Initialize () [0x00011] in <eb9f6530d4a24c568674e4b3e6d3489a>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.826 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1605 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.1 MB.
+System memory in use after: 154.8 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 4.284283 ms (FindLiveObjects: 0.294595 ms CreateObjectMapping: 0.131643 ms MarkObjects: 3.360945 ms  DeleteObjects: 0.496317 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SampleScript.ts
+  artifactKey: Guid(3d25bf9424e714998970af8697d33163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScript.ts using Guid(3d25bf9424e714998970af8697d33163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12635db6dfa43562fc5819cbd2a7075a') in 0.406313 seconds
+  Import took 0.410277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.569651 seconds.
+  path: Assets/SampleScene.unity
+  artifactKey: Guid(4950a937a613549baa198138952cae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScene.unity using Guid(4950a937a613549baa198138952cae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab4ebce491d87e011d172a092632df') in 0.001679 seconds
+  Import took 0.005661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017065 seconds.
+  path: Assets/SampleScene.unity
+  artifactKey: Guid(4950a937a613549baa198138952cae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScene.unity using Guid(4950a937a613549baa198138952cae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab4ebce491d87e011d172a092632df') in 0.001463 seconds
+  Import took 0.004920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.093895 seconds.
+  path: Assets/first.unity
+  artifactKey: Guid(4950a937a613549baa198138952cae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/first.unity using Guid(4950a937a613549baa198138952cae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6521500e293722155f94974decbbd2') in 0.003161 seconds
+  Import took 0.006685 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
