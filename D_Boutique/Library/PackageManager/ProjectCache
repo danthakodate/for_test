@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637837034930000000
-    m_Hash: 3050133235
+      ticks: 637837711120000000
+    m_Hash: 709788846
   m_LockFileStatus:
     m_FilePath: /Users/techcreative/Documents/GitHub/for_test/D_Boutique/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637837034960000000
-    m_Hash: 1931278022
+      ticks: 637837711120000000
+    m_Hash: 2973688918
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -75,12 +75,14 @@ m_PackageAssets:
         - 1.14.9
         - 1.14.12
         - 1.14.13
+        - 1.14.15
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
         - 1.15.12
         - 1.15.13
+        - 1.15.15
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -105,6 +107,7 @@ m_PackageAssets:
         - 1.14.9
         - 1.14.12
         - 1.14.13
+        - 1.14.15
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -199,6 +202,7 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
         compatible:
         - 1.0.2
         - 1.0.6
@@ -228,6 +232,7 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -630,6 +635,7 @@ m_PackageAssets:
         - 2.1.6
         - 2.2.0-preview.1
         - 2.2.0-preview.2
+        - 2.2.0-preview.3
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -649,11 +655,13 @@ m_PackageAssets:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -783,6 +791,7 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
+        - 1.7.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -810,6 +819,7 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
+        - 1.7.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -911,6 +921,65 @@ m_PackageAssets:
         isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: zepeto.buildit.loader@0.0.3
+      testable: 0
+      isDirectDependency: 1
+      version: 0.0.3
+      source: 1
+      resolvedPath: /Users/techcreative/Documents/GitHub/for_test/D_Boutique/Library/PackageCache/zepeto.buildit.loader@0.0.3
+      assetPath: Packages/zepeto.buildit.loader
+      name: zepeto.buildit.loader
+      displayName: ZEPETO.Buildit.Loader
+      author:
+        name: ZEPETO
+        email: support@zepeto.me
+        url: https://zepeto.me/
+      category: Unity
+      type: 
+      description: Buildit map loader for ZEPETO World
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.1
+        - 0.0.2
+        - 0.0.3
+        compatible:
+        - 0.0.1
+        - 0.0.2
+        - 0.0.3
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - zepeto
+      - script
+      - javascript
+      - typescript
+      - v8
+      - gameplatform
+      - Buildit
+      registry:
+        id: scoped:ZEPETO
+        name: ZEPETO
+        url: https://upm.zepeto.run
+        scopes:
+        - zepeto
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637818834331120000
       documentationUrl: 
       hasRepository: 0
       repository:

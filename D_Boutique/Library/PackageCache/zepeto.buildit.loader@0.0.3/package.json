@@ -1,0 +1,25 @@
+{
+	"name": "zepeto.buildit.loader",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.Buildit.Loader",
+	"version": "0.0.3",
+	"unity": "2020.3",
+	"description": "Buildit map loader for ZEPETO World",
+	"keywords": [
+		"zepeto",
+		"script",
+		"javascript",
+		"typescript",
+		"v8",
+		"gameplatform",
+		"Buildit"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"commitId": "0063aed6f4dcdfcc8b987c7f944542546758212b"
+}
