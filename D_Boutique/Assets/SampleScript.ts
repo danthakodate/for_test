@@ -1,13 +1,11 @@
-import { ZepetoScriptBehaviour } from 'ZEPETO.Script'
+import { ZepetoScriptBehaviour } from 'ZEPETO.Script';
 
 export default class SampleScript extends ZepetoScriptBehaviour {
+  Start() {
+    console.log('Hello ZEPETO World');
+  }
 
-    Start() {    
-        console.log("Hello ZEPETO Script");
-    }
-
-    Update() {
-        this.transform.Rotate(3, 0, 0);
-    }
-
+  Update() {
+    this.transform.Rotate(3, 0, 0);
+  }
 }
